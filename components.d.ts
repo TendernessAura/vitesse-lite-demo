@@ -4,6 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Counter: typeof import('./src/components/Counter.vue')['default']
     Nav: typeof import('./src/components/Nav.vue')['default']
     Player: typeof import('./src/components/Player.vue')['default']
     Search: typeof import('./src/components/Search.vue')['default']
