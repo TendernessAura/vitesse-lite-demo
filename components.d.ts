@@ -5,6 +5,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Nav: typeof import('./src/components/Nav.vue')['default']
+    Player: typeof import('./src/components/Player.vue')['default']
     Search: typeof import('./src/components/Search.vue')['default']
   }
 }

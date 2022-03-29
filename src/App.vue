@@ -3,14 +3,14 @@
     <Nav />
     <Search />
     <router-view></router-view>
-    <div bg-pink-500 class="w-4/5 h-1/11">播放控件</div>
+    <Player v-if="store.playerList[0]" />
   </main>
 </template>
 <script setup lang="ts">
 import { useStore } from './pinia'
 
 const store = useStore()
-store.getPersonAlizedlist()
+store.setPersonAlizedList()
 
 
 </script>

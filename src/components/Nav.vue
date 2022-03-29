@@ -1,9 +1,9 @@
 <template>
     <div bg-black bg-opacity-50 h-full class="w-1/5">
-        <div ml-10 w-full class="h-1/11">
+        <router-link to="/" ml-10 w-full class="h-1/11">
             <div my-5 i-ic:baseline-music-note text-2xl></div>
             <div my-5 text-2xl>云音乐</div>
-        </div>
+        </router-link>
         <div w-full text-white class="h-10/11">
             <div mt-8 w-full>
                 <div text-sm w-full pl-10>在线音乐</div>
